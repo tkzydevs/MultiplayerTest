@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Multiplayer Test</string>
+    <string name="online_friends">Online Friends</string>
+    <string name="requests">Requests</string>
+    <string name="p1">P1</string>
+    <string name="p2">P2</string>
+
+    <!-- Menu Activity -->
+    <string name="single_player">Single Player</string>
+    <string name="multi_player">Multiplayer</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+
+    <!-- Content Descriptions -->
+    <string name="splash_screen_img">Splash Screen Logo</string>
+    <string name="cell">Cell</string>
+
+    <!-- Dialog -->
+    <string name="start_new_game">Start a new game?</string>
+</resources>

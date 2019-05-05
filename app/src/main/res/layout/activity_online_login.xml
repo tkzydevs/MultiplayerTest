@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context=".OnlineLoginActivity">
+    
+    <TextView
+        android:id="@+id/tvLoginUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/gay_white"
+        />
+    
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            
+            <TextView
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:id="@+id/tvOnlineFriends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/online_friends"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/gay_white"
+                android:textSize="16sp"
+                />
+            
+            <ListView
+                android:id="@+id/lvOnlineUsers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:id="@+id/tvRequestFromFriends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/requests"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/gay_white"
+                android:textSize="16sp"
+                />
+
+            <ListView
+                android:id="@+id/lvRequestOfOnlineUser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

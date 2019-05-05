@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/gray</color>
+    <color name="colorPrimaryDark">@color/gray</color>
+    <color name="colorAccent">@color/evil_orange</color>
+
+    <!-- New colours -->
+    <color name="gray">#282828</color>
+    <color name="evil_orange">#DF753E</color>
+    <color name="gay_white">#FFFFFF</color>
+</resources>
